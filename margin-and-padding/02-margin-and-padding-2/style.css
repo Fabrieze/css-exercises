@@ -7,21 +7,37 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  /* add padding here */
+  padding: 8px; 
 }
 
 .title {
   background: #e3f4ff;
+  font-size: 16px;
+  padding: 8px;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .content {
   background: #e3f4ff;
+  /* dont understand margin vs padding choices here based on the readme so idk check back later */
+  margin-bottom: 8px;
+  padding: 16px 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  /* padding added */
+  padding: 8px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  /* margin auto to center, change display to block for new line, add margins */
+  margin: auto;
+  display: block;
+  padding: 8px 24px 8px;
 }
