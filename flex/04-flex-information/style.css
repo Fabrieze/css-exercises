@@ -1,16 +1,40 @@
 body {
   font-family: 'Courier New', Courier, monospace;
 }
+/* add text-align center to body next time. duh */
 
 img {
   width: 100px;
   height: 100px;
 }
 
+/*solution*/
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
 }
+
+.images {
+  display: flex;
+  padding: 32px;
+  gap: 52px;
+  justify-content: center;
+  text-align: center;
+}
+
+/* padding can go as margin-bottom under title */
+
+.barberry .chili .saffron .pepper {
+flex-wrap: wrap;
+  max-width: 200px;
+}
+
+/* this works but each image can be wrapped in the same div class next time. eg info.
+flex-wrap isnt needed*/
+
 
 /* do not edit this footer */
 .footer {

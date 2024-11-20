@@ -1,20 +1,38 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
 }
+
+/* got solution mostly, but forgot padding. padding for all items
+contains it more inside the container */
 
 .logo {
   font-size: 48px;
   font-weight: 900;
   color: tomato;
   background: white;
-  padding: 4px 32px;
+  padding: 4px 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
 }
+
+/* missed padding and margin again. UL has default values that mess with the solution
+when adding flex */
 
 a {
   font-size: 22px;

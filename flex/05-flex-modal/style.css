@@ -15,12 +15,38 @@ body {
   justify-content: center;
 }
 
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
+  display: flex;
+  gap: 20px;
+  padding: 20px;
 }
+
+/* gap separates icon from the text, flex needed for entire element */
+
+.header {
+  display: flex;
+  font-weight: bold;
+  font-size: 18px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+
+
+/* flex display the header to separate the text+x, using space-between, from the icon.
+margin-bottom adds space between it and the buttons. */
+
+.text {
+  margin-bottom: 10px;
+}
+
 
 .icon {
   color: royalblue;
@@ -33,6 +59,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  flex-shrink: 0;
 }
 
 .close-button {
